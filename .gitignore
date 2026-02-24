@@ -1,0 +1,33 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+.python-version
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs and outputs
+logs/
+*.log
+
+# Data and checkpoints (large files)
+embeddings/
+checkpoints/
+*.npy
+*.pt
+*.pth
+
+# IDE
+.venv/
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.*
