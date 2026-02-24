@@ -48,7 +48,7 @@ cd sae_adapter
 sbatch run_extract_om_embeddings_array.sbatch
 ```
 
-**Local** (single shard; run once per shard or in parallel manually):
+**Local** (single shard):
 ```bash
 cd sae_adapter
 source ../OpenMidnight/.venv/bin/activate   
