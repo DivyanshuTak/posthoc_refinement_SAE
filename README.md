@@ -1,6 +1,6 @@
 # Post-hoc SAE refinement for OpenMidnight embeddings
 
-We train a sparse autoencoder (SAE) adapter on precomputed OpenMidnight (DINOv2 ViT-G/14) CLS embeddings, then evaluate the refined features with linear probing on benchmarks (BACH, PCam-10, BreakHis, CRC-100K, MHIST). 
+We train a sparse autoencoder (SAE) adapter on precomputed OpenMidnight CLS embeddings, then evaluate the refined embedding with linear probing on benchmarks (BACH, PCam-10, BreakHis, CRC-100K, MHIST). 
 
 ![Pipeline overview](./mainfig.png)
 
