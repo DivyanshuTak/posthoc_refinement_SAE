@@ -80,7 +80,7 @@ We evaluate on **BACH, PCam-10, BreakHis, CRC-100K**, and **optionally MHIST** u
    uv pip install -e './eva-probe[vision]' --no-deps
    ```
 
-2. **Set checkpoint paths** in the `eva-probe/run_*.sbatch` files (e.g. `SAE_CKPT_PATH`).
+2. **Set checkpoint paths** in the `eva-probe/run_*.sbatch` files.
 
 3. **Run probing:**
    - **Cluster:** `cd OpenMidnight/eva-probe && sbatch run_bach.sbatch` (or `run_pcam_10.sbatch`, `run_breakhist.sbatch`, `run_crc.sbatch`).
