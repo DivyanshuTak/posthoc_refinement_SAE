@@ -30,7 +30,7 @@ def build_patch_transform(size):
     )
 
 
-# Skip patches that are mostly background (HSV tissue filter)
+# skip patches that are background (HSV tissue filter)
 def _accept_patch_hsv(tile_rgb, min_ratio, lower_bound, upper_bound):
     tile = np.asarray(tile_rgb)
     tile = cv2.cvtColor(tile, cv2.COLOR_RGB2HSV)
