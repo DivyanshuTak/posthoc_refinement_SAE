@@ -71,7 +71,7 @@ python train_sae_adapter.py
 
 ### Step 4: Evaluation (linear probing)
 
-We evaluate on **BACH, PCam-10, BreakHis, CRC-100K**, and **optionally MHIST** using the EVA framework. This repo includes a modified copy of OpenMidnight (under `OpenMidnight/`), along with the SAE backbone wrapper in `OpenMidnight/dinov2/eval/om_sae_backbone.py` and all eva-probe configs set up. From the repo root:
+We evaluate on **BACH, PCam-10, BreakHis, CRC-100K**, and **MHIST** using the EVA framework. This repo includes a modified copy of OpenMidnight (under `OpenMidnight/`), along with the SAE backbone wrapper in `OpenMidnight/dinov2/eval/om_sae_backbone.py` and all eva-probe configs set up. From the repo root:
 
 1. **Install eva-probe** (source is in `OpenMidnight/eva-probe/`)
    ```bash
